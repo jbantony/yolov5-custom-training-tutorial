@@ -11,7 +11,7 @@
 ### Trouble-Shooting
 
 1. Error in Model Form:
-And export the model with opset version 12, not the default 17.
+And export the model with opset value 12, not the default 17.
 
 `python export_mod.py --weights test_runs/model/best.pt --opset 12 --include onnx` 
 
